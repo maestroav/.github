@@ -1,6 +1,6 @@
 <div align="center">
 
-# maestroav
+<img src="./logo.png" alt="maestroav" width="320">
 
 **A studio for fast‑paced micro‑SaaS.**
 Small products, shipped quickly, kept only if they earn it.
