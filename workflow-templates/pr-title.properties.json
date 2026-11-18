@@ -1,0 +1,6 @@
+{
+  "name": "Conventional PR title",
+  "description": "Fails the PR if its title doesn't follow Conventional Commits (needed for squash-merge history and release tooling).",
+  "iconName": "octicon git-pull-request",
+  "categories": ["Automation"]
+}

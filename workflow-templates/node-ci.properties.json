@@ -1,0 +1,7 @@
+{
+  "name": "Node CI (pnpm)",
+  "description": "Lint, type-check, test and build a pnpm/Node project on every PR and push to the default branch.",
+  "iconName": "octicon checklist",
+  "categories": ["Continuous integration", "JavaScript", "TypeScript"],
+  "filePatterns": ["package.json$"]
+}

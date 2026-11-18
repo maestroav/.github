@@ -1,0 +1,48 @@
+name: 💡 Product idea
+description: Pitch a new micro-SaaS. Fill this in before writing any code.
+title: "[idea] "
+labels: ["type: idea", "stage: idea"]
+body:
+  - type: input
+    id: oneliner
+    attributes:
+      label: One-liner
+      placeholder: "X helps <who> do <job> without <pain>"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem & buyer
+      description: Who pays, how they solve it today, and why that's painful.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Demand evidence
+      description: Search volume, forum threads, competitors' pricing, people who said they'd pay…
+  - type: textarea
+    id: mvp
+    attributes:
+      label: Smallest shippable MVP
+      description: The one feature that delivers value. Target ≤ 2 weeks of build.
+    validations:
+      required: true
+  - type: input
+    id: pricing
+    attributes:
+      label: Pricing hypothesis
+      placeholder: "$9/mo solo · $29/mo team"
+  - type: textarea
+    id: kill
+    attributes:
+      label: Kill criteria
+      description: What result after launch means we stop? (e.g. < 10 signups in 30 days)
+    validations:
+      required: true
+  - type: dropdown
+    id: channel
+    attributes:
+      label: First acquisition channel
+      options: ["SEO / content", "Communities (Reddit, HN, Discord…)", "Marketplace / app store", "Cold outreach", "Paid ads", "Other"]

@@ -1,0 +1,6 @@
+{
+  "name": "Release Please",
+  "description": "Opens a release PR that bumps the version and writes CHANGELOG.md from Conventional Commits.",
+  "iconName": "octicon tag",
+  "categories": ["Automation"]
+}

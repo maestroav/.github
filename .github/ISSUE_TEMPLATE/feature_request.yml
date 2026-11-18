@@ -1,0 +1,27 @@
+name: ✨ Feature request
+description: Improve an existing product
+labels: ["type: feature", "triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Who has the problem and how painful is it?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: How will we know it worked?
+      description: Metric or observable signal (activation, conversion, retention, support tickets…)
+  - type: dropdown
+    id: effort
+    attributes:
+      label: Rough effort
+      options: ["XS (< 2h)", "S (< 1 day)", "M (< 3 days)", "L (needs breakdown)"]

@@ -1,0 +1,42 @@
+name: 🐞 Bug report
+description: Something is broken or behaves unexpectedly
+labels: ["type: bug", "triage"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to …
+        2. Click …
+        3. See error
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: "prod / staging / local · browser · version or commit"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      render: shell
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - "Low: cosmetic or has a workaround"
+        - "Medium: feature degraded"
+        - "High: feature broken for users"
+        - "Critical: outage, data loss or payments affected"
+    validations:
+      required: true

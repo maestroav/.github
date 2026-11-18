@@ -1,0 +1,6 @@
+{
+  "name": "CodeQL security scan",
+  "description": "Weekly and per-PR static security analysis. Free for public repos; needs GitHub Advanced Security for private ones.",
+  "iconName": "octicon shield-check",
+  "categories": ["Code scanning"]
+}

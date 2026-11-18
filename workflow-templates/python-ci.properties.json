@@ -1,0 +1,7 @@
+{
+  "name": "Python CI (uv)",
+  "description": "Ruff lint/format check and pytest for a uv-managed Python project.",
+  "iconName": "octicon checklist",
+  "categories": ["Continuous integration", "Python"],
+  "filePatterns": ["pyproject.toml$"]
+}
