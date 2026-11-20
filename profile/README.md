@@ -44,4 +44,4 @@ Repos are tagged with these as GitHub topics (`stage-idea`, `stage-building`, `s
 
 ---
 
-<sub>Most work here is private. Reach out via the owner’s GitHub profile: [@vrahmanov](https://github.com/vrahmanov).</sub>
+<sub>Members: new here? Start with [`welcome`](https://github.com/maestroav/welcome). Most work here is private. Reach out via the owner’s GitHub profile: [@vrahmanov](https://github.com/vrahmanov).</sub>
