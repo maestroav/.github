@@ -5,6 +5,8 @@
 **A studio for fast‑paced micro‑SaaS.**
 Small products, shipped quickly, kept only if they earn it.
 
+**[🌐 maestroav.github.io](https://maestroav.github.io)** · see what we're building
+
 </div>
 
 ---
@@ -27,6 +29,7 @@ idea  →  validate  →  build MVP  →  launch  →  measure  →  keep / kill
 - Trunk-based: short-lived branches, small PRs, `main` always deployable
 - Conventional Commits, automated checks on every PR, Dependabot on
 - Secrets live in the platform, never in the repo
+- Every product gets a landing page at `maestroav.github.io/lp/<product>`, e.g. [org-pulse](https://maestroav.github.io/lp/org-pulse/)
 
 ### Status board
 
